@@ -1,4 +1,4 @@
-# BBEWorkflow
+# BB Editing Workflow
 A simple editorial workflow for Beaver Builder
 
 <p align="center">

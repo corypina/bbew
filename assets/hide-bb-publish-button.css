@@ -1,0 +1,18 @@
+/*
+ * Hides the Publish button on Beaver Builder 2.X
+ */
+
+.fl-builder-bar
+.fl-builder-button-group {
+    flex-basis: 50%;
+}
+
+span.fl-builder-button-primary:nth-child(3) {
+    display: none;
+}
+
+span.fl-builder-button-group
+span.fl-builder-button-primary:nth-child(2) {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

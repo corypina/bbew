@@ -1,0 +1,72 @@
+#draft-notice {
+    padding: 10px 20px;
+    text-align: left;
+    background-color: rgb(232,94,94);
+    color: #fff;
+    font-size: 15px;
+}
+
+#draft-notice.done {
+	background-color: rgb(72,132,89);
+}
+
+#draft-notice.notified {
+	background-color: rgb(249,243,59);
+	color: #4f4b4b;
+}
+
+#draft-notice a {
+    color: rgb(232,94,94);
+    padding: 0 6px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+#draft-notice a:hover {
+    color: rgb(230,157,157);
+}
+
+#draft-notice-form,
+#draft-changes-summary {
+    padding: 20px;
+    font-size: 14px;
+}
+
+#draft-notice-form textarea {
+    margin: 20px 0 20px 0;
+    border: 1px solid rgb(232,94,94);
+}
+
+#draft-notice-form button,
+#draft-notice-form a {
+    padding: 1px 8px;
+    border: 0;
+    background-color: rgb(232,94,94);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#draft-notice-form a:hover {
+    text-decoration: none;
+}
+
+#draft-notice-form button:hover,
+#draft-notice-form a:hover {
+    background-color: rgb(230,157,157);
+}
+
+#draft-notice-form .summary-label {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+#draft-notice-form .summary-time-sensitive {
+    margin-bottom: 20px;
+	font-weight: 400;
+}
+
+p.draft-summary-title {
+	font-weight: 600;
+}

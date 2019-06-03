@@ -4,6 +4,7 @@ Plugin Name: BB Editing Workflow
 Description: An add on for Beaver Builder that requires some roles to submit a desription of changes, preventing them from publishing directly.
 Version: 1.2
 Author: Cory Piña
+Author URI: http://thisiscory.com
 */
 
 // Required for checking current user's login status

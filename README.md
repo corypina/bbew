@@ -23,7 +23,7 @@ The gist:
 
 
 ## Notes
-- The notices printed to the screen are currently hooked into the Top Bar of the Beaver Builder Theme. If you're using a different theme, or just want to change this up, the notices are controlled in `includes/notices.bb-editing.php`.
+- The notices printed to the screen are currently hooked into the *Top Bar* of the **Beaver Builder Theme**. If you're using a different theme, or just want to change this up, the notices are controlled in `includes/notices.bb-editing.php`.
 
 <p align="center">
   <img alt="Describing the changes" width="600" src="https://github.com/corypina/bbew/blob/master/img/04.changes-summary.jpg" />

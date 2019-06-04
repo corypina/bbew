@@ -10,18 +10,21 @@ Author URI: http://thisiscory.com
 // Required for checking current user's login status
 include_once(ABSPATH . 'wp-includes/pluggable.php');
 
+/**
+ * Define email for notifications
+ */
+define( 'WEBADMIN', 'ADMIN_EMAIL@DOMAIN.COM');
+
+/**
+ * Define the roles that have publishing permission
+ */
+define( 'BBPERMISSION', array( 'administrator') );
+
 /* Check if Beaver Builder is activated */
 if ( class_exists('FLBuilderModel') ) {
 
-    // Define email for notifications
-    define( 'WEBADMIN', 'ADMIN_EMAIL@DOMAIN.COM');
-
-    // Define the roles that have publishing permission
-    define( 'BBPERMISSION', array( 'administrator') );
-
     define( 'BBEWASSETS', plugin_dir_url( __FILE__ ) . 'assets/' );
-    define( 'BBEWDIR', plugin_dir_path(__FILE__) );
-    
+    define( 'BBEWDIR', plugin_dir_path(__FILE__) ); 
     
     // Includes
     foreach(glob( BBEWDIR . "includes/[!_]*.php") as $file){

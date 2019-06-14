@@ -23,7 +23,7 @@ class BBEWorkflow {
     /**
      * Does the current page page have a draft in process?
      * 
-     * @return bool
+     * @return bool|null
      */
     
     static public function has_draft() {

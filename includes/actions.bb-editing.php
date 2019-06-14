@@ -65,7 +65,7 @@ add_action( 'wp_enqueue_scripts', function(){
     // If user is logged in
     if ( is_user_logged_in() ) {
         // load draft notification CSS and JS
-        wp_enqueue_style( 'draft-notice', BBEWASSETS . 'draft-notice.css', '', '0.1' );
-        wp_enqueue_script( 'draft_action', BBEWASSETS . 'draft-notice.js', '', '0.1', true );
+        wp_enqueue_style( 'draft-notice', BBEWASSETS . 'draft-notice.css', array(), '0.1' );
+        wp_enqueue_script( 'draft_action', BBEWASSETS . 'draft-notice.js', array(), '0.1', true );
     }
 });

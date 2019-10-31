@@ -12,7 +12,7 @@ This all started when our team migrated a higher ed site over to WordPress. We w
 The gist:
 - The admin decides which user role(s) get publishing permission
 - Users without permission (but with access to the Builder) will only be able to **Save Draft**
-- When those users are ready to submit changes, there's a simple form available to describe the chnanges made
+- When those users are ready to submit changes, there's a simple form available to describe the changes made
 - The admin receives that info via email, and can view the changes before making them live.
 - The page is locked from editing until published by Admin
 

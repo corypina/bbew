@@ -1,4 +1,5 @@
 # BB Editing Workflow
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)   
 A simple editorial workflow for Beaver Builder
 
 <p align="center">
